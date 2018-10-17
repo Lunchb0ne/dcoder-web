@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Bubblegum+Sans");
+.gray-100 {
+  color: #f8f9fa;
+}
+
+.bg-light-white {
+  background-color: #f8f8ff;
+}
+
+.text-gray7 {
+  color: #495057;
+}
+
+.font-OpenS {
+  font-family: "Open Sans", sans-serif;
+}
+
+#svg-header {
+  position: absolute;
+  height: 70%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+body {
+  background: linear-gradient(226deg, #232526, #414345);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 90%;
+  }
+  50% {
+    background-position: 100% 11%;
+  }
+  100% {
+    background-position: 0% 90%;
+  }
+}
+
+.for-stats {
+  color: #414345;
+  width: 5rem;
+  height: 5rem;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  margin-top: -2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h3 {
+  font-family: "Cabin", sans-serif;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 80vh;
+  }
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

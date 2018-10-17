@@ -1,0 +1,133 @@
+// Restated Bootstrap Variables
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+$primary: #6c63ff !default;
+$secondary: #f7ff63 !default;
+@import url("https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Bubblegum+Sans");
+$fd: "Cabin", sans-serif;
+
+.gray-100 {
+  color: $gray-100;
+}
+
+.bg-light-white {
+  background-color: #f8f8ff;
+}
+.text-gray7 {
+  color: $gray-700;
+}
+.font-OpenS {
+  font-family: "Open Sans", sans-serif;
+}
+
+#svg-header {
+  position: absolute;
+  height: 70%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+body {
+  background: linear-gradient(226deg, #232526, #414345);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 90%;
+    }
+
+    50% {
+      background-position: 100% 11%;
+    }
+
+    100% {
+      background-position: 0% 90%;
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 90%;
+    }
+
+    50% {
+      background-position: 100% 11%;
+    }
+
+    100% {
+      background-position: 0% 90%;
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 90%;
+    }
+
+    50% {
+      background-position: 100% 11%;
+    }
+
+    100% {
+      background-position: 0% 90%;
+    }
+  }
+}
+
+.for-stats {
+  color: #414345;
+  width: 5rem;
+  height: 5rem;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  margin-top: -2rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h3 {
+    font-family: $fd;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (min-width: 992px) {
+    height: 80vh;
+
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
