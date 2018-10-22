@@ -1,6 +1,45 @@
-// Restated Bootstrap Variables
+//Importing custom-fonts
+@font-face {
+  font-family: 'MuseoSans-300';
+  src: url("./fonts/MuseoSans-300.otf");
+}
 
-$white: #fff !default;
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url("./fonts/MuseoSans-500.otf");
+}
+
+@font-face {
+  font-family: 'MuseoSans-700';
+  src: url("./fonts/MuseoSans-700.otf");
+}
+
+@font-face {
+  font-family: 'Avenir Next reg';
+  src: url("./fonts/avenir-next-regular.woff2");
+}
+
+@font-face {
+  font-family: 'Avenir Next medium';
+  src: url("./fonts/avenir-next-medium.woff2");
+}
+
+@font-face {
+  font-family: 'Avenir Next bold';
+  src: url("./fonts/avenir-next-bold.woff2");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Rubik|Eczar|Libre+Franklin|Proza+Libre');
+// Restated Bootstrap Variables
+$Palarinate-Blue : #2939f8;
+$Mineshaft : #333333;
+$Bali-Hai : #8997a6;
+$Athens-Gray : #f0f1f7;
+$nic-purple:#5a5afb;
+$nic-purple2: #2e9afd;
+//Gradient go like $nic-purple ->#2e9afd
+$maybe-text : #e4f2ff;
+$white: $Athens-Gray !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -13,32 +52,55 @@ $gray-900: #212529 !default;
 $black: #000 !default;
 $primary: #6c63ff !default;
 $secondary: #f7ff63 !default;
-@import url("https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Bubblegum+Sans");
-$fd: "Cabin", sans-serif;
+$fd: 'Museo Sans-500',
+sans-serif;
+$fdh: 'Avenir Next medium',
+sans-serif;
 
 .gray-100 {
   color: $gray-100;
 }
 
+.maybe-text {
+  color: $maybe-text;
+}
+
 .bg-light-white {
   background-color: #f8f8ff;
 }
+
 .text-gray7 {
   color: $gray-700;
-}
-.font-OpenS {
-  font-family: "Open Sans", sans-serif;
 }
 
 #svg-header {
   position: absolute;
   height: 70%;
-  right: 0;
+  right: 0.2rem;
   bottom: 0;
   z-index: -1;
 }
 
+.avn-reg {
+  font-family: 'Avenir Next reg', sans-serif;
+}
+
+.avn-med {
+  font-family: 'Avenir Next medium', sans-serif;
+}
+
+.avn-bol {
+  font-family: 'Avenir Next bold', sans-serif;
+}
+
+.favcolor {
+  color: $nic-purple;
+}
+
+//DECODERS LOGO ANIM
+
 body {
+  font-family: 'Rubik', sans-serif;
   background: linear-gradient(226deg, #232526, #414345);
   background-size: 400% 400%;
 
@@ -90,7 +152,7 @@ body {
 }
 
 .for-stats {
-  color: #414345;
+  color: $nic-purple;
   width: 5rem;
   height: 5rem;
 }
@@ -101,20 +163,20 @@ body {
 }
 
 .masthead {
-  min-height: 30rem;
+  min-height: 28rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  margin-top: -2rem;
-  padding-top: 0.1rem;
+  margin-top: 0%;
+  padding-top: 0%;
   padding-bottom: 0.1rem;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 
   h3 {
-    font-family: $fd;
+    font-family: $fdh;
   }
 
   h1 {

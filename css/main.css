@@ -1,6 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Bubblegum+Sans");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Rubik|Eczar|Libre+Franklin|Proza+Libre");
+@font-face {
+  font-family: 'MuseoSans-300';
+  src: url("./fonts/MuseoSans-300.otf");
+}
+
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url("./fonts/MuseoSans-500.otf");
+}
+
+@font-face {
+  font-family: 'MuseoSans-700';
+  src: url("./fonts/MuseoSans-700.otf");
+}
+
+@font-face {
+  font-family: 'Avenir Next reg';
+  src: url("./fonts/avenir-next-regular.woff2");
+}
+
+@font-face {
+  font-family: 'Avenir Next medium';
+  src: url("./fonts/avenir-next-medium.woff2");
+}
+
+@font-face {
+  font-family: 'Avenir Next bold';
+  src: url("./fonts/avenir-next-bold.woff2");
+}
+
 .gray-100 {
   color: #f8f9fa;
+}
+
+.maybe-text {
+  color: #e4f2ff;
 }
 
 .bg-light-white {
@@ -11,19 +45,32 @@
   color: #495057;
 }
 
-.font-OpenS {
-  font-family: "Open Sans", sans-serif;
-}
-
 #svg-header {
   position: absolute;
   height: 70%;
-  right: 0;
+  right: 0.2rem;
   bottom: 0;
   z-index: -1;
 }
 
+.avn-reg {
+  font-family: 'Avenir Next reg', sans-serif;
+}
+
+.avn-med {
+  font-family: 'Avenir Next medium', sans-serif;
+}
+
+.avn-bol {
+  font-family: 'Avenir Next bold', sans-serif;
+}
+
+.favcolor {
+  color: #5a5afb;
+}
+
 body {
+  font-family: 'Rubik', sans-serif;
   background: linear-gradient(226deg, #232526, #414345);
   background-size: 400% 400%;
   -webkit-animation: AnimationName 30s ease infinite;
@@ -55,7 +102,7 @@ body {
 }
 
 .for-stats {
-  color: #414345;
+  color: #5a5afb;
   width: 5rem;
   height: 5rem;
 }
@@ -66,13 +113,13 @@ body {
 }
 
 .masthead {
-  min-height: 30rem;
+  min-height: 28rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
-  margin-top: -2rem;
-  padding-top: 0.1rem;
+  margin-top: 0%;
+  padding-top: 0%;
   padding-bottom: 0.1rem;
   background-position: center center;
   background-repeat: no-repeat;
@@ -80,7 +127,7 @@ body {
 }
 
 .masthead h3 {
-  font-family: "Cabin", sans-serif;
+  font-family: "Avenir Next medium", sans-serif;
 }
 
 .masthead h1 {
