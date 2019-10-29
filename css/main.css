@@ -169,5 +169,6 @@ li a {
 
 li a:hover {
   background-color: #2e9afd;
+  transition: opacity .125s linear;
 }
 /*# sourceMappingURL=main.css.map */
